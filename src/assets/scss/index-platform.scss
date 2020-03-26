@@ -1,0 +1,450 @@
+.subsystem-index {
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #3bbaab;
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.note-card {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.note-bg-y {
+    background: #ffc;
+}
+
+.note-bg-g {
+    background: #ccffcc;
+}
+
+.note-bg-b {
+    background: #9fdcff;
+}
+
+.col-index {
+    /*width: 750px;*/
+column-count: 1;
+column-gap: 0;
+}
+
+.add-tittle {
+    color: #808080;
+}
+
+.col-index .header-panel {
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px #CCCCCC solid;
+    /*font-weight: bolder;*/
+}
+
+.el-carousel__container {
+    height: 258px;
+}
+
+.margin-b-10 {
+    margin-bottom: 20px;
+}
+
+.panel-body-index1 {
+    color: #808080;
+    height: 218px;
+    line-height: 218px;
+    text-align: center;
+}
+
+.margin-b-10 .el-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    /*padding: 10px;*/
+    height: auto;
+    box-sizing: border-box;
+}
+
+.card-el-item {
+    box-sizing: border-box;
+    break-inside: avoid;
+    border: 1px #FFFFFF solid;
+}
+
+.add-card {
+    box-sizing: border-box;
+    break-inside: avoid;
+    background: none;
+    border: 2px #cccccc dashed;
+}
+
+.add-card:hover {
+    border: 2px #3C85EE dashed;
+    cursor: pointer;
+}
+
+.add-card:hover .add-tittle {
+    color: #3C85EE;
+    cursor: pointer;
+}
+
+.card-el-item:hover {
+	transform: translateY(-4px);
+	box-shadow:0px 1px 6px 0px rgba(56,96,244,0.3);
+}
+
+.card-el-item {
+	box-shadow:0px 1px 1px 0px rgba(56, 96, 244, 0.35);
+}
+.text-center {
+    text-align: center;
+}
+.user-box{
+	.el-card__body{
+		padding: 15px;
+		padding-top: 10px;
+	}
+}
+.dialog-card .el-dialog {
+    /*bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;*/
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 500px;
+    margin-bottom: 0px;
+}
+
+.img-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.gh-wechat {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.gh-wechat img {
+    width: 100px;
+    height: auto;
+}
+
+.text-wechat {
+    display: inline-block;
+    width: 200px;
+    min-width: 150px;
+}
+
+.el-icon-more {
+    cursor: pointer;
+}
+
+.wechat-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+	font-size: 16px;
+}
+
+.wechat-slogen {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.weeks {
+    background-color: #EEEEEE;
+    color: #17B3A3;
+    height: 35px;
+    line-height: 35px;
+}
+
+.full-calendar-body .dates .dates-events .events-week .events-day .day-number {
+    text-align: center;
+}
+
+.comp-full-calendar {
+    padding: 0px !important;
+}
+
+.full-calendar-body .dates .week-row .day-cell {
+    min-height: 35px !important;
+}
+.app-popper__right{
+    position: fixed;
+    right: 0px;
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: -4px 0px 4px #cccccc;
+}
+.app-popper__right .app-popover-title{
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+.popper-footer{
+    position: absolute;
+    bottom: 50px;
+    /*margin-top: 10px;*/
+}
+.title-bolder{
+    font-weight: bold;
+	font-size: 18px;
+	color: #333333;
+}
+.index-title{
+    padding-bottom: 10px;
+    border-bottom: 1px #CCCCCC solid;
+    font-size: 16px;
+    font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+.ul-index-book,.ul-index-help{
+    padding-inline-start: 0px;
+}
+.ul-index-book li{
+    list-style:none;
+    height: 66px;
+    color: #666666;
+    margin: 10px 0px;
+    
+}
+.li-book-nodata{
+    text-align: left;
+    cursor: pointer;
+	position: relative;
+}
+.li-book-nodata div{
+    margin-left: 10px;
+}
+.li-book-nodata .book-title{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.li-book-nodata .book-content{
+    padding-top: 10px;
+	font-size: 12px;
+	color: #555555;
+}
+.li-book-nodata .book-date{
+    // margin: 10px 10px 0px 0px;
+    position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 12px;
+	color: #555555;
+}
+.li-book-nodata-add{
+    cursor: pointer;
+    line-height: 66px;
+    text-align: center;
+}
+.li-book-nodata:hover,.li-book-nodata-add:hover{
+    box-shadow:#CCCCCC 2px 2px 6px;
+}
+.ul-index-help{
+    margin-left: 20px;
+    /*list-style:none;*/
+}
+.ul-index-help li{
+    margin: 10px 0px;
+}
+.index-app-item{
+    border:1px solid #EEEEEE;
+    border-radius: 4px;
+    height: 58px;
+    text-align: center;
+    cursor: pointer;
+	padding: 9px;
+}
+.index-app-item:hover{
+    background:#F2F3FA;
+    border:1px solid #EEEEEE;
+}
+.index-app-img-cont{
+}
+.index-app-img .img-div{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+	margin-right: 8px;
+	text-align: center;
+	line-height: 40px;
+}
+.index-app-img div img{
+	width: 22px;
+	height: 22px;
+}
+.index-app-img{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+}
+.index-app-text{
+	color: #666666;
+	font-size: 13px;
+}
+.help-index-bg{
+    background-image:  url(~@/assets/img/help-bg.png);
+    background-repeat: no-repeat;
+    background-size: 160px auto ;
+    background-position: right bottom;
+	.el-card__body{
+		padding: 15px;
+		padding-top: 10px;
+	}
+}
+.padding15-t{
+	.el-card__body{
+		padding: 15px;
+		padding-top: 10px;
+	}
+}
+.index-title-1{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px #CCCCCC solid;
+	color:#333333;
+}
+.index-title-2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-index-cont{
+    height: 170px;
+    overflow: hidden;
+}
+.card-index-cont a{
+    text-decoration: none;
+    color: #303133;
+}
+.card-index-cont .el-col{
+    border-right: 1px #eeeeee solid;
+}
+.card-index-cont .el-card:hover{
+    box-shadow: none;
+}
+.card-index-cont .el-progress__text{
+    color: #303133;
+    font-size: 25px !important;
+}
+.card-index-box ,.card-index-cont .el-card{
+    border: none;
+}
+.card-index-cont .el-col:last-child{
+    border-right:none;
+}
+.card-index-body{
+    text-align: center;
+}
+.card-index-cont .process-title{
+    color: #303133;
+}
+.card-index-body .kpi-icon{
+    
+}
+.card-index-body .kpi-text{
+    
+    
+}
+.i-index-question{
+    color: #c8c8c8;font-size: 16px; 
+    cursor: pointer;
+}
+.title-remark{
+    color: #8e8e8e;
+}
+.card-index-body .body-text2{
+    margin-top: 20px;
+}
+.card-index-body .body-text2 .kpi-value{
+    margin-top: 20px;
+}
+.card-index-cont .kpi-num{
+    font-size: 30px;
+}
+.card-index-body .body-icon{
+    float: left; 
+    width: 40%;
+    height: 80px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    font-size: 20px;
+}
+.card-index-nopadding .el-card__body{
+    padding:20px  0px;
+}
+.card-index-body .analy-progress{
+    margin-top: 3px;
+}
+.small-box{
+    margin: 20px 0;
+}
+.small-box .body-text2{
+    margin-top: 5px;
+}
+.small-box .el-card__body{
+    padding: 0px 20px;
+    border-bottom:  1px #eeeeee solid;
+}
+.small-box .body-icon{
+    height: 30px; 
+}
+.small-box .body-text2 .kpi-value{
+    margin-top:10px;
+}
+.analysis-card-mini{
+    margin: 0px 0px 7px 0px;
+    text-align: center;
+}
+.analysis-card-mini .el-card__body{
+   padding: 0px;
+}
+.analysis-card-mini .el-card__body .kpi-num{
+    font-size: 30px;
+}
+.card-index-process-title{
+    position: relative;
+}
+.card-index-process-value{
+    position: absolute;text-align: center;width: 100%;top: 65px;
+}
+.index-grey-nodata{
+    text-align: center;
+    color: #CCCCCC;
+}
+.index-grey-nodata img{
+    margin-bottom: 10px;
+}
+
+.default-timetable{
+    border: 1px #e3e6e1 solid;background:#ffffff;display:inline-block;position: relative;top: -5px;width: 18px;height: 18px; border-radius: 50%;margin-top: -20px;
+}
+.default-timetable-active{
+    border: 1px #e3e6e1 solid;background:#2ebbad;display:inline-block;position: relative;top: -5px;width: 18px;height: 18px; border-radius: 50%;margin-top: -20px;
+}
+.timetable-text{
+    color:#303133;
+}
+.timetable-text-active{
+    color:#2ebbad;
+    font-weight: bold;
+}
+.gh-wechat{
+	width: 90px;
+	height: 90px;
+	border:1px solid rgba(210,220,253,1);
+	border-radius:3px;
+	padding: 10px;
+	img{
+		width: 70px;
+		height: 70px;
+	}
+}
